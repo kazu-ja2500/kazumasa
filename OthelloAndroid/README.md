@@ -13,4 +13,4 @@ AI difficulty levels:
 
 The board is drawn using a custom `GameBoardView` and supports tapping on cells to place a piece. The human player uses black pieces and the AI uses white. A simple score display shows the number of black and white pieces as the game progresses.
 
-To build the project, open it with Android Studio and sync Gradle. The core game logic resides in `GameBoard.kt` and AI strategies in `AIPlayer.kt`.
+To build the project, open it with Android Studio and sync Gradle. The build scripts use Kotlin DSL (`build.gradle.kts`). The core game logic resides in `GameBoard.kt` and AI strategies in `AIPlayer.kt`.
