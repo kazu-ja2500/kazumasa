@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:text="Game screen" />
 
-    <com.example.othello.GameBoardView
+    <com.kazumasa.othello.GameBoardView
         android:id="@+id/boardView"
         android:layout_width="match_parent"
         android:layout_height="0dp"

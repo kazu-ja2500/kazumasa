@@ -1,4 +1,4 @@
-package com.example.othello
+package com.kazumasa.othello
 
 import android.content.Intent
 import android.os.Bundle

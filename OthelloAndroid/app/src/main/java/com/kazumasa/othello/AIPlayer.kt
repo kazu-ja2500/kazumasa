@@ -1,4 +1,4 @@
-package com.example.othello
+package com.kazumasa.othello
 
 class AIPlayer(private val difficulty: Difficulty) {
     enum class Difficulty { BEGINNER, EASY, MEDIUM, HARD }

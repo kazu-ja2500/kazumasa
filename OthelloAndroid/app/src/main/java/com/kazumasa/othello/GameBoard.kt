@@ -1,4 +1,4 @@
-package com.example.othello
+package com.kazumasa.othello
 
 /**
  * Simple Othello game logic for an 8x8 board.

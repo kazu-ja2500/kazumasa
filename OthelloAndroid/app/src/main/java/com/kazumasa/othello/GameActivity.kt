@@ -1,4 +1,4 @@
-package com.example.othello
+package com.kazumasa.othello
 
 import android.os.Bundle
 import android.widget.TextView
