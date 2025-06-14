@@ -1,6 +1,6 @@
 # OthelloAndroid
 
-This is a minimal Android project implementing the beginnings of an Othello (Reversi) game. It now includes a start screen where you can select the AI difficulty before starting the game.
+This Android project implements a simple Othello (Reversi) game. The app starts with a screen where you can choose the AI difficulty and then begins a match on an 8×8 board.
 
 AI difficulty levels:
 
@@ -11,4 +11,6 @@ AI difficulty levels:
 | Medium | Minimax with alpha–beta pruning |
 | Hard | Score based + Minimax + alpha–beta pruning |
 
-To build the project, open it with Android Studio and sync Gradle. The game logic is located in `GameBoard.kt`. The AI strategies are implemented in `AIPlayer.kt`.
+The board is drawn using a custom `GameBoardView` and supports tapping on cells to place a piece. The human player uses black pieces and the AI uses white. A simple score display shows the number of black and white pieces as the game progresses.
+
+To build the project, open it with Android Studio and sync Gradle. The core game logic resides in `GameBoard.kt` and AI strategies in `AIPlayer.kt`.
